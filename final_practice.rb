@@ -11,11 +11,14 @@ end
 p greet_a_hawaiian
 # What is the return value of your method?
     #The return value of the method is the string "Aloha!"
-# How many arguments did you pass your method?
-#There are no arguments in this method as it is general.
+# How many arguments did you pass your method
+    #There are no arguments in this method as it is general.
 
 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
+def custom_greeting(name)
+    "Aloha, #{name}"
+end
 
 # What is the return value of your method?
 # How many arguments did you pass your method?
