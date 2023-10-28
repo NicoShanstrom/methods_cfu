@@ -59,6 +59,12 @@ p location_now.length
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+number_of_children = 1
+p numnber_of_children.integer?
+
+number_of_problems = 99
+p number_of_problems::sqrt
+
 
 
 # SECTION 4: Calling methods on variables assigned to arrays.
