@@ -6,7 +6,7 @@
 
 # 1: Write a method named greeting that returns a string with a general greeting. 
 def greeting
-    p "Aloha!"
+    "Aloha!"
 end
 # What is the return value of your method?
 #The return value of the method is the string "Aloha!"
