@@ -16,8 +16,8 @@ p greet_a_hawaiian
 
 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
-def custom_greeting(name)
-    "Aloha, #{name}"
+def custom_greeting(name="Nico")
+   p "Aloha, #{name}"
 end
 
 # What is the return value of your method?
