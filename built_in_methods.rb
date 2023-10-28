@@ -28,7 +28,7 @@ p 12.even?
 
 18.next
 p 18.next
-
+# the .next method is called on the integer 18 to return the subsequent integer.
 
 
 # SECTION 2: Calling methods on variables assigned to strings.
@@ -44,6 +44,12 @@ p 18.next
 # The puts command prints the return value of the start_with? method (true) to the console.
 first_name = "Jeff"
 puts first_name.start_with?("J")
+
+dog_name = "Paschi"
+p dog_name.end_with?("i")
+
+location_now = "Pukalani"
+p location_now.length
 
 
 
