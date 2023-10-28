@@ -6,10 +6,11 @@
 
 # 1: Write a method named greeting that returns a string with a general greeting. 
 def greet_a_hawaiian
-    p "Aloha!"
-    
+    "Aloha!"
+end 
+p greet_a_hawaiian
 # What is the return value of your method?
-#The return value of the method is the string "Aloha!"
+    #The return value of the method is the string "Aloha!"
 # How many arguments did you pass your method?
 #There are no arguments in this method as it is general.
 
