@@ -7,10 +7,10 @@
 # No arguments are passed; downcase has one clear job which is to lowercase all letters that exist in the String
 # The return value is "hello world"
 "Hello World".downcase
-
+p "Hellow World".downcase
 
 "Hello World".include?("Hello")
-
+p 
 
 "Hello World".end_with?("Hello")
 
