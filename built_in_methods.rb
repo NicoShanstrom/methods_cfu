@@ -9,20 +9,25 @@
 "Hello World".downcase
 p "Hello World".downcase
 
+
 "Hello World".include?("Hello")
 p "Hello World".include?("Hello")
+# The include method is called on the string object "Hello World" to ask if "Hello" is included in the string.
 
 "Hello World".end_with?("Hello")
 p "Hello World".end_with?("Hello")
+# The end_with? method is called on the string object "Hello World" to return if the string "Hello World" ends with Hello.
 
 "Hello World".end_with?("rld")
 p "Hello World".end_with?("rld")
-
+# The .end_with? method is called on the striing object "Hello World" to return if the string ends in rld.
 
 12.even?
-
+p 12.even?
+# The .even? method is called on the integer 12 to return if it is an even integer. 
 
 18.next
+p 18.next
 
 
 
