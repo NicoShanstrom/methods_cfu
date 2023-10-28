@@ -22,11 +22,18 @@ end
 p custom_greeting("Nico")
 
 # What is the return value of your method?
+# the return value of the method is "Aloha, Nico"
 # How many arguments did you pass your method?
+# There is one arguent passed in my method
 # What data type was your argument(s)?
+# I think the data type is a string. I am still confused as to how i got to the correct code.
 
 
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
+def greet_person(first, middle, last)
+    "Hello, #{first, middle, last}"
+end
+p greet_person ("Nicholas", "Robert", "Shanstrom")
 
 # What is the return value of your method?
 # How many arguments did you pass your method?
