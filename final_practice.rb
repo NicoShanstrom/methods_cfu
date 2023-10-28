@@ -19,7 +19,7 @@ p greet_a_hawaiian
 def custom_greeting(name)
     "Aloha, #{name}"
 end
-p Aloha, ("Nico")
+custom_greeting,("Nico")
 
 # What is the return value of your method?
 # How many arguments did you pass your method?
