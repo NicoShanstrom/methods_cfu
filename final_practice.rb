@@ -45,7 +45,7 @@ p greet_person ("Nicholas Robert Shanstrom")
 def square (num1)
    p num1::square
 end
-square = (9)
+p square = (9)
 # What is the return value of your method?
 # How many arguments did you pass your method?
 # What data type was your argument(s)?
