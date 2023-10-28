@@ -5,7 +5,9 @@
 
 
 # 1: Write a method named greeting that returns a string with a general greeting. 
-
+def greet_a_hawaiian
+    p "Aloha!"
+    
 # What is the return value of your method?
 #The return value of the method is the string "Aloha!"
 # How many arguments did you pass your method?
@@ -36,9 +38,7 @@
 
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
 # Hint: You will only write one check_stock method that checks the quantity and then prints the corresponding statement.
-def greet_a_hawaiian
-    p "Aloha!"
-end
+
 
 check_stock(4, "Coffee");
 # => "Coffee is stocked"
