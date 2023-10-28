@@ -63,7 +63,7 @@ number_of_children = 1
 p number_of_children.integer?
 
 number_of_problems = 99
-p number_of_problems::sqrt
+p number_of_problems.sqrt
 
 
 
