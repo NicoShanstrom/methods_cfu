@@ -7,8 +7,8 @@
 # 1: Write a method named greeting that returns a string with a general greeting. 
 def greet_a_hawaiian
     "Aloha!"
-end 
 p greet_a_hawaiian
+end
 # What is the return value of your method?
     #The return value of the method is the string "Aloha!"
 # How many arguments did you pass your method
@@ -18,8 +18,8 @@ p greet_a_hawaiian
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
 def custom_greeting(name)
     "Aloha, #{name}"
-end
 p custom_greeting("Nico")
+end
 
 # What is the return value of your method?
 # the return value of the method is "Aloha, Nico"
@@ -32,9 +32,8 @@ p custom_greeting("Nico")
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
 def greet_person(first, middle, last)
     "Hello, #{first, middle, last}"
-end
 p greet_person ("Nicholas Robert Shanstrom")
-
+end
 # What is the return value of your method?
 # How many arguments did you pass your method?
 # What data type was your argument(s)?
@@ -44,25 +43,30 @@ p greet_person ("Nicholas Robert Shanstrom")
 # Bonus: Print a sentence that interpolates the return value of your square method.
 def square (num1)
    p num1::square
-end
 p square = (9)
+end
 # What is the return value of your method?
+    # the return should be 3
+    # I am having a very hard time figuring out how to write the methods code properly and I dont really have much help coming in.
 # How many arguments did you pass your method?
+# There should be one argument passed into my method the integer
 # What data type was your argument(s)?
+# The data type is an integer in the argument
 
 
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
 # Hint: You will only write one check_stock method that checks the quantity and then prints the corresponding statement.
 
+def check_stock(amount, "ingredients")
 
 check_stock(4, "Coffee");
-# => "Coffee is stocked"
+=> "Coffee is stocked"
 
 check_stock(3, "Tortillas");
-# => "Tortillas - running LOW"
+=> "Tortillas - running LOW"
 
 check_stock(0, "Cheese");
-# => "Cheese - OUT of stock!"
+=> "Cheese - OUT of stock!"
 
 check_stock(1, "Salsa");
-# => "Salsa - running LOW"
+=> "Salsa - running LOW"
