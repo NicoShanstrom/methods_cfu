@@ -60,7 +60,7 @@ p location_now.length
 # Include comments above each method call explaining the impact and return value of that method.
 
 number_of_children = 1
-p numnber_of_children.integer?
+p number_of_children.integer?
 
 number_of_problems = 99
 p number_of_problems::sqrt
