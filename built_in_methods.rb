@@ -73,3 +73,9 @@ p number_of_problems<100
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+friends=["Nico", "Jenna", "Paula", "Phillip"]
+p friends[-1]
+p friends[3]
+states_lived_in=["Florida", "Colorado", "California", "Hawaii"]
+p states_lived_in.reverse
