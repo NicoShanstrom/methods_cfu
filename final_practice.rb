@@ -46,10 +46,10 @@ p greet_person
 
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
 # Bonus: Print a sentence that interpolates the return value of your square method.
-def square (num1)
+#def square (num1)
    p num1::square
-end
-p square = (9)
+#end
+#p square = (9)
 
 # What is the return value of your method?
     # the return should be 3
@@ -63,17 +63,17 @@ p square = (9)
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
 # Hint: You will only write one check_stock method that checks the quantity and then prints the corresponding statement.
 # I cannot even think anymore. I have no clue where this question is asking me to go. Sorry, I need assistance. 
-def check_stock(amount, ingredients)
+#def check_stock(amount, ingredients)
 
 
-check_stock(4, "Coffee");
-=> "Coffee is stocked"
+#check_stock(4, "Coffee");
+#=> "Coffee is stocked"
 
-check_stock(3, "Tortillas");
-=> "Tortillas - running LOW"
+#check_stock(3, "Tortillas");
+#=> "Tortillas - running LOW"
 
-check_stock(0, "Cheese");
-=> "Cheese - OUT of stock!"
+#check_stock(0, "Cheese");
+#=> "Cheese - OUT of stock!"
 
-check_stock(1, "Salsa");
-=> "Salsa - running LOW"
+#check_stock(1, "Salsa");
+#=> "Salsa - running LOW"
