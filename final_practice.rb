@@ -7,8 +7,10 @@
 # 1: Write a method named greeting that returns a string with a general greeting. 
 def greet_a_hawaiian
     "Aloha!"
-p greet_a_hawaiian
 end
+
+p greet_a_hawaiian
+
 # What is the return value of your method?
     #The return value of the method is the string "Aloha!"
 # How many arguments did you pass your method
@@ -18,22 +20,25 @@ end
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
 def custom_greeting(name)
     "Aloha, #{name}"
-p custom_greeting("Nico")
 end
+
+p custom_greeting("Nico")
+
 
 # What is the return value of your method?
 # the return value of the method is "Aloha, Nico"
 # How many arguments did you pass your method?
 # There is one arguent passed in my method
 # What data type was your argument(s)?
-# I think the data type is a string. I am still confused as to how i got to the correct code.
-
+# The data type is a string.
 
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
 def greet_person(first, middle, last)
-    "Hello, #{first, middle, last}"
-p greet_person ("Nicholas Robert Shanstrom")
+    "Hello, #{first} #{middle} #{last}"
 end
+
+p greet_person
+
 # What is the return value of your method?
 # How many arguments did you pass your method?
 # What data type was your argument(s)?
@@ -43,8 +48,9 @@ end
 # Bonus: Print a sentence that interpolates the return value of your square method.
 def square (num1)
    p num1::square
-p square = (9)
 end
+p square = (9)
+
 # What is the return value of your method?
     # the return should be 3
     # I am having a very hard time figuring out how to write the methods code properly and I dont really have much help coming in.
@@ -56,8 +62,9 @@ end
 
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
 # Hint: You will only write one check_stock method that checks the quantity and then prints the corresponding statement.
+# I cannot even think anymore. I have no clue where this question is asking me to go. Sorry, I need assistance. 
+def check_stock(amount, ingredients)
 
-def check_stock(amount, "ingredients")
 
 check_stock(4, "Coffee");
 => "Coffee is stocked"
