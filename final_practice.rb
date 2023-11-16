@@ -37,7 +37,7 @@ def greet_person(first, middle, last)
     "Hello, #{first} #{middle} #{last}"
 end
 
-p greet_person
+p greet_person ("Nicholas", "Robert", "Shanstrom")
 
 # What is the return value of your method?
 # How many arguments did you pass your method?
