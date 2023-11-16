@@ -1,4 +1,6 @@
 # Self-Evaluation
 
 - Reflect on your learning and work today. What are you most proud of?
+ - I started off pretty good with the built in methods, and then when it came to final practice it pretty much sunk my happiness. The code that i was entering looked right when compared to the class reading, and then when trying to make it run i got all kinds of error messages and i tried over and over and over and over again to figure out what the problem was. I cannot seem to get past this. At this time, I have to lay this to rest and hope that someone can assist me in learning it. I kind of figured that we may have more assistance here. I have worked a lot more than 15-20 hours this week. I am lost at methods. 
 - What is the power of using methods in our applications?
+    Methods can help us to speed up our coding so we can get more done later on. Built in methods are great once you know which ones to us for what, and making your own methods can help for specific variables. I am having a very hard time making this flow. I hope that I can get a grib on these when we have more assistance. Did i fail, did i pass the mod0, I am not sure. But, i know more than i did on day one. And i am not sure if i am the only one feeling this badly about methods. The slack channel is pretty quiet.
