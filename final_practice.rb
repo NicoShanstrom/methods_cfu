@@ -69,17 +69,17 @@ p "The square of #{number} is #{numbersqr}"
 
 
 def check_stock
-if Coffee == 4
+if "Coffee" == 4
     p "Coffee is stocked"
-if Tortillas == 3
+elsif "Tortillas" == 3
     p "Tortillas - running LOW"
-if Cheese == 0
+elsif "Cheese" == 0
     p "Cheese - OUT of stock!"
-if Salsa == 1
+elsif "Salsa" == 1
     p "Salsa - running LOW"
 end
 
-Coffee = 4
+"Coffee" = 4
 
 #check_stock(4, "Coffee");
 #=> "Coffee is stocked"
