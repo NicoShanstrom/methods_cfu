@@ -49,8 +49,8 @@ p nicos_greeting
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
 # Bonus: Print a sentence that interpolates the return value of your square method.
 
-def square(num)
-    num * num
+def square(number)
+    number * number
 end
 number = 4
 numbersqr = square(number)
