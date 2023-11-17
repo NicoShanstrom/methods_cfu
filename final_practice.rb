@@ -41,17 +41,20 @@ nicos_greeting = greet_person("Nicholas", "Robert", "Shanstrom")
 
 p nicos_greeting
 
-# What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+# What is the return value of your method? nicos_greeting
+# How many arguments did you pass your method? 3 arguments
+# What data type was your argument(s)? strings
 
 
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
 # Bonus: Print a sentence that interpolates the return value of your square method.
-#def square (num1)
-   p num1::square
-#end
-#p square = (9)
+
+def square(num)
+    num * num
+end
+number = 4
+numbersqr = square(number)
+p "The square of #{number} is #{numbersqr}"
 
 # What is the return value of your method?
     # the return should be 3
