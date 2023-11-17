@@ -77,7 +77,7 @@ def check_stock(ingredient, amount)
     p "Cheese - OUT of stock!"
     if "Salsa" == 1
     p "Salsa - running LOW"
-end
+end'
 
 ingredient = Coffee
 amount = 4
