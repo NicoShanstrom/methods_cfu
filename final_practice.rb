@@ -57,17 +57,16 @@ numbersqr = square(number)
 p "The square of #{number} is #{numbersqr}"
 
 # What is the return value of your method?
-    # the return should be 3
-    # I am having a very hard time figuring out how to write the methods code properly and I dont really have much help coming in.
+ # the return value 16
 # How many arguments did you pass your method?
-# There should be one argument passed into my method the integer
+ # There is one argument in the method, an integer.
 # What data type was your argument(s)?
-# The data type is an integer in the argument
+ # The data type is an integer in the argument
 
 
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
 # Hint: You will only write one check_stock method that checks the quantity and then prints the corresponding statement.
-# I cannot even think anymore. I have no clue where this question is asking me to go. Sorry, I need assistance. 
+
 #def check_stock(amount, ingredients)
 
 
