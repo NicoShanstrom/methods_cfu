@@ -68,7 +68,7 @@ p "The square of #{number} is #{numbersqr}"
 # Hint: You will only write one check_stock method that checks the quantity and then prints the corresponding statement.
 
 
-def check_stock(ingredient)
+def check_stock(ingredient, amount)
 if "Coffee" == 4
     p "Coffee is stocked"
 if "Tortillas" == 3
@@ -79,7 +79,8 @@ if "Salsa" == 1
     p "Salsa - running LOW"
 end
 
-ingredient = Coffee == 4
+ingredient = Coffee
+amount = 4
 
 #check_stock(4, "Coffee");
 #=> "Coffee is stocked"
