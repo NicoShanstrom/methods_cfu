@@ -71,10 +71,10 @@ p "The square of #{number} is #{numbersqr}"
 def check_stock(ingredient, amount)
     if "Coffee" == 4
     p "Coffee is stocked"
-end
 
 ingredient = "Coffee"
 amount = 4
+    end
 
 #check_stock(4, "Coffee");
 #=> "Coffee is stocked"
