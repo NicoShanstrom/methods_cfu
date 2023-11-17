@@ -73,7 +73,7 @@ def check_stock(ingredient, amount)
     p "Coffee is stocked"
 end
 
-ingredient = Coffee
+ingredient = "Coffee"
 amount = 4
 
 #check_stock(4, "Coffee");
