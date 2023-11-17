@@ -71,13 +71,7 @@ p "The square of #{number} is #{numbersqr}"
 def check_stock(ingredient, amount)
     if "Coffee" == 4
     p "Coffee is stocked"
-    if "Tortillas" == 3
-    p "Tortillas - running LOW"
-    if "Cheese" == 0
-    p "Cheese - OUT of stock!"
-    if "Salsa" == 1
-    p "Salsa - running LOW"
-end'
+end
 
 ingredient = Coffee
 amount = 4
