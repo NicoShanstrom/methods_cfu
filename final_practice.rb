@@ -80,13 +80,13 @@ end
 
 
 check_stock(4, "Coffee");
-=> "Coffee is stocked"
+# => "Coffee is stocked"
 
 check_stock(3, "Tortillas");
-=> "Tortillas - running LOW"
+# => "Tortillas - running LOW"
 
 check_stock(0, "Cheese");
-=> "Cheese - OUT of stock!"
+# => "Cheese - OUT of stock!"
 
 check_stock(1, "Salsa");
-=> "Salsa - running LOW"
+# => "Salsa - running LOW"
