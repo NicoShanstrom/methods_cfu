@@ -74,7 +74,8 @@ def check_stock(amount, ingredient)
     elsif amount >=1 && <=3
         p "#{ingredient} - running LOW"
     elsif amount = 0
-        p "#{ingredient} OUT of stock!"
+        p "#{ingredient} OUT of stock!" 
+    end
 end
 
 
