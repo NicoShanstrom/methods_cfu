@@ -71,7 +71,7 @@ p "The square of #{number} is #{numbersqr}"
 def check_stock(amount, ingredient)
     if amount == 4
         p "#{ingredient} is stocked"
-    elsif amount >= 1 && amount <= 3
+    elsif amount == 1..3
         p "#{ingredient} - running LOW"
     elsif amount == 0
         p "#{ingredient} OUT of stock!" 
