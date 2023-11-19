@@ -68,22 +68,24 @@ p "The square of #{number} is #{numbersqr}"
 # Hint: You will only write one check_stock method that checks the quantity and then prints the corresponding statement.
 
 
-def check_stock(ingredient, amount)
-ingredient * amount
+def check_stock(amount, ingredient)
+
 if "Coffee" == 4
 p "Coffee is stocked"
 end
     
 ingredient = "Coffee"
 amount = 4
-#check_stock(4, "Coffee");
-#=> "Coffee is stocked"
 
-#check_stock(3, "Tortillas");
-#=> "Tortillas - running LOW"
+check_stock(4, "Coffee");
+=> "Coffee is stocked"
 
-#check_stock(0, "Cheese");
-#=> "Cheese - OUT of stock!"
+check_stock(3, "Tortillas");
+=> "Tortillas - running LOW"
 
-#check_stock(1, "Salsa");
-#=> "Salsa - running LOW"
+check_stock(0, "Cheese");
+=> "Cheese - OUT of stock!"
+
+check_stock(1, "Salsa");
+=> "Salsa - running LOW"
+end
