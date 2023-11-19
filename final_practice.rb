@@ -69,13 +69,14 @@ p "The square of #{number} is #{numbersqr}"
 
 
 def check_stock(amount, ingredient)
-
-if "Coffee" == 4
-p "Coffee is stocked"
+    if amount == 4
+        p "#{ingredient} is stocked"
+    elsif amount >=1 && <=3
+        p "#{ingredient} - running LOW"
+    elsif amount = 0
+        p "#{ingredient} OUT of stock!"
 end
-    
-ingredient = "Coffee"
-amount = 4
+
 
 check_stock(4, "Coffee");
 => "Coffee is stocked"
@@ -88,4 +89,3 @@ check_stock(0, "Cheese");
 
 check_stock(1, "Salsa");
 => "Salsa - running LOW"
-end
